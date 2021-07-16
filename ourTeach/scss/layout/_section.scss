@@ -1,0 +1,35 @@
+section {
+  .about {
+    position: relative;
+    .about_Mid {
+      padding: 4em 0;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+    .about_Top {
+      position: absolute;
+      top: 0;
+      right: 0;
+      left: 0;
+      width: 100%;
+    }
+    .about_Bot {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      width: 100%;
+    }
+  }
+  .teacher {
+    background-color: #dcd1f3;
+    height: 100%;
+  }
+  .row {
+    height: 100%;
+    max-width: 1200px;
+    margin: auto;
+  }
+}

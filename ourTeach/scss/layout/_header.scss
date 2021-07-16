@@ -1,0 +1,29 @@
+header {
+  .menu {
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+    .menu_ourTeam {
+      width: 1200px;
+      margin: auto;
+      z-index: 1001;
+      top: 0;
+      right: 0;
+      left: 0;
+      position: fixed;
+      img {
+        z-index: 1000;
+      }
+    }
+  }
+  a {
+    color: black;
+    transition: 0.2s;
+    &:hover {
+      color: #b61984;
+    }
+    i:hover {
+      color: #b61984;
+    }
+  }
+}

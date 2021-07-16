@@ -1,0 +1,224 @@
+.buttonContact a {
+  color: white;
+  box-shadow: 0 0 0 3em #b61984 inset;
+  transition: all 300ms ease;
+  background: none;
+  padding: 1em 1em;
+  border: none;
+  border-radius: 50px;
+  letter-spacing: none;
+}
+
+.buttonContact a:hover {
+  text-decoration: none;
+  color: #b61984;
+  box-shadow: 0 0 0 1px #b61984 inset;
+}
+
+.form_Button button {
+  color: white;
+  box-shadow: 0 0 0 3em #b61984 inset;
+  transition: all 300ms ease;
+  text-transform: uppercase;
+  background: none;
+  padding: 1em 5em;
+  border: none;
+  border-radius: 50px;
+  letter-spacing: none;
+}
+
+.form_Button button:hover {
+  color: #b61984;
+  box-shadow: 0 0 0 1px #b61984 inset;
+}
+
+.footer_Button button {
+  box-shadow: 0 0 0 1px #fff inset;
+  color: #181818;
+  transition: all 300ms ease;
+  text-transform: uppercase;
+  background: #ffffff;
+  padding: 1em 5em;
+  border: none;
+  border-radius: 50px;
+  letter-spacing: none;
+}
+
+.footer_Button button:hover {
+  transform: scale(1);
+  background-color: #b61984;
+  color: white;
+}
+
+.find_Form {
+  margin-top: 50px;
+  box-shadow: 0px 1px 6px #000;
+  background-color: white;
+  border-radius: 2%;
+}
+
+.find_Form .find_Form2 {
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.find_Form .icon_Input {
+  position: relative;
+}
+
+.find_Form .icon_Input input {
+  padding: 1em 1em 1em 2em !important;
+  border-radius: 15px;
+}
+
+.find_Form .icon_Input i {
+  color: #b61984;
+  top: 12px;
+  position: absolute;
+  left: 8px;
+}
+
+.find_Form textarea {
+  border-radius: 20px;
+  border: 1px solid #d8d0d0;
+  padding: 7px 0em 0em 3em !important;
+}
+
+section .about {
+  position: relative;
+}
+
+section .about .about_Mid {
+  padding: 4em 0;
+}
+
+section .about img {
+  max-width: 100%;
+  height: auto;
+}
+
+section .about .about_Top {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+}
+
+section .about .about_Bot {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+}
+
+section .teacher {
+  background-color: #dcd1f3;
+  height: 100%;
+}
+
+section .row {
+  height: 100%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+header .menu {
+  width: 100%;
+  position: absolute;
+  z-index: 2;
+}
+
+header .menu .menu_ourTeam {
+  width: 1200px;
+  margin: auto;
+}
+
+header .menu .menu_ourTeam img {
+  z-index: 1000;
+}
+
+header a {
+  color: black;
+  transition: 0.2s;
+}
+
+header a:hover {
+  color: #b61984;
+}
+
+header a i:hover {
+  color: #b61984;
+}
+
+.find {
+  position: relative;
+  padding-top: 4em;
+}
+
+.find .about_Mid {
+  position: relative;
+  z-index: 2;
+}
+
+#footer {
+  height: 600px;
+  color: white;
+}
+
+#footer ul li {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+#footer ul li a {
+  color: white;
+  list-style: none;
+  text-decoration: none;
+}
+
+#footer ul li:hover {
+  opacity: 0.8;
+}
+
+#footer ul .footer__contact a {
+  color: white;
+  list-style: none;
+  text-decoration: none;
+}
+
+#footer ul .footer__contact:hover {
+  opacity: 0.8;
+}
+
+#footer .footer_img {
+  background-image: url(/img/footer_background.jpg);
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+#footer .footer_contact {
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 36%;
+}
+
+#footer .footer_input input {
+  padding: 11px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 35px;
+  background: none;
+  color: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*# sourceMappingURL=style.css.map */

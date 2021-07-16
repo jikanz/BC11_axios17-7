@@ -1,0 +1,12 @@
+@mixin Button($bg, $pd-y, $pd-x, $bd, $radius, $ls) {
+  background: $bg;
+  padding: $pd-y $pd-x;
+  border: $bd;
+  border-radius: $radius;
+  letter-spacing: $ls;
+}
+
+@mixin ButtonHover($color, $bs) {
+  color: $color;
+  box-shadow: $bs;
+}
