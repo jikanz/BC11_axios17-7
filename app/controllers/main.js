@@ -64,7 +64,10 @@ const layData = () => {
       // console.log(result.data.filter((value) => value.loaiND === "GV"));
       renderTable(result.data);
       console.log(result.data);
-      list.push(result.data);
+
+      list.push(...result.data);
+
+      console.log(list);
     })
     .catch((err) => {
       console.log(err);
@@ -72,6 +75,7 @@ const layData = () => {
 };
 layData();
 console.log(list);
+
 // tới Thêm nào
 const layThongTin = (isAdd) => {
   const taiKhoan = getEle("TaiKhoan").value;
@@ -90,7 +94,7 @@ const layThongTin = (isAdd) => {
         taiKhoan,
         "divTaiKhoan",
         "(*) Trùng",
-        list[[0]]
+        list
       );
   }
 
@@ -200,26 +204,6 @@ window.suaNguoiDung = suaNguoiDung;
 
 // cập nhật
 const capNhatNguoiDung = (id) => {
-  // const taiKhoan = getEle("TaiKhoan").value;
-  // const hoTen = getEle("HoTen").value;
-  // const matKhau = getEle("MatKhau").value;
-  // const email = getEle("Email").value;
-  // const hinhAnh = getEle("HinhAnh").value;
-  // const loaiNguoiDung = getEle("loaiNguoiDung").value;
-  // const loaiNgonNgu = getEle("loaiNgonNgu").value;
-  // const moTa = getEle("MoTa").value;
-
-  // const qlnd = new QLND(
-  //   id,
-  //   taiKhoan,
-  //   hoTen,
-  //   matKhau,
-  //   email,
-  //   loaiNguoiDung,
-  //   loaiNgonNgu,
-  //   moTa,
-  //   hinhAnh
-  // );
   const qlnd = layThongTin(false);
   if (qlnd) {
     service
